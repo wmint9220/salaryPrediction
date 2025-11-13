@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -7,9 +6,6 @@ st.set_page_config(
     page_icon="🏠",
     layout="wide"
 )
-
-# --- HEADER IMAGE ---
-st.image("ai.png", use_column_width=True)
 
 # --- TITLE & INTRO ---
 st.title("🏠 Welcome to the AI Job Salary Prediction Dashboard")
